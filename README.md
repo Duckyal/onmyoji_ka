@@ -1,4 +1,4 @@
-[日本語](https://github.com/Duckyal/onmyoji_ka/edit/termux_project/README_JP.md)
+[日本語](https://github.com/Duckyal/onmyoji_ka/blob/termux_project/README_JP.md)
 # 是阴阳师吗:
 
 ## 思路:
