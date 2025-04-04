@@ -14,7 +14,7 @@
 
 
 * (1).termux或zerotermux中安装proot容器(我这里安装的是Debian)
-'''
+
 pkg update
 
 pkg install tsu
@@ -25,11 +25,9 @@ proot-distro install debian    # 此操作可能需要换源或者魔法
 
 proot-distro login debian    # 进入Debian
 
-'''
-
 * (2).安装python和uiautomator2
-'''
-# 更新apt并安装python(以及pip)和adb
+
+#更新apt并安装python(以及pip)和adb
 apt update
 
 apt install python3
@@ -40,30 +38,28 @@ python3 get-pip.py --break-system-packages
 
 apt install adb
 
-# 安装uiautomator2库，opencv_python库和rapidocr库
+#安装uiautomator2库，opencv_python库和rapidocr库
 pip install -U uiautomator2 --break-system-packages
 
 pip install opencv_python --break-system-packages
 
 pip install rapidocr_onnxruntime --break-system-packages
 
-# cv库报错找不到 libGL.so.1，libgthread-2.0.so.0 共享对象文件时：
+#cv库报错找不到 libGL.so.1，libgthread-2.0.so.0 共享对象文件时：
 apt install libgl1-mesa-glx
 
 apt install libglib2.0-0
 
-'''
-
 * (3).初始化配置
 编辑'/data/data/com.termux/files/usr/etc/bash.bashrc'文件(推荐mt管理器)，添加如下内容:
-'''
+
+
 #尝试宽容模式
 sudo setenforce 0
-# 进入debian并cd到termux_project目录
+#进入debian并cd到termux_project目录
 proot-distro login debian -- sh -c "cd /storage/emulated/0/termux_project && python3 start.py"
 proot-distro login debian -- sh -c "cd /storage/emulated/0/termux_project && exec bash"
 
-'''
 
 ### 2.资源下载:
 从主分支termux_project文件夹中下载脚本到内部空间的termux_project目录(即/sdcard/termux_project/)
