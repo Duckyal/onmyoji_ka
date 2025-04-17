@@ -1,7 +1,10 @@
 # 是阴阳师吗:  
 > 手机独立执行python脚本方法有:
-> + termux方法
-> + ascript方法
+
+|方法|优势|劣势|
+|---|---|---|
+|termux|扩展性较好|使用较复杂|
+|ascript|扩展性差|使用简单|
 > 
 > 声明:
 > + 此项目下的自动化实例仅供学习  
@@ -65,4 +68,15 @@ proot-distro login debian -- sh -c "cd /storage/emulated/0/termux_project && exe
 ---
 ## ascript方法  
 ### 思路:  
+> 通过使用[airscript](http://ascript.cn/)及其函数方法创建阴阳师脚本，通过无障碍服务模拟点击，这种方法使用第三方库需要自己重新编译  
+### 配置  
+> 1.参考[官方文档](http://ascript.cn/docs/android/guide/first)打开编辑器并创建项目
+> 
+> 2.复制粘贴主分支下的ascript文件夹下的py文件内容并保存  
+### 使用  
+> 1.打开应用按照提示打开无障碍服务并共享屏幕
+> 
+> 2.打开游戏后，点开右侧悬浮窗
+> 
+> 3.点击放大镜按钮，选择脚本，此时脚本开始执行
 
