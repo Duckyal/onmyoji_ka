@@ -70,13 +70,19 @@ proot-distro login debian -- sh -c "cd /storage/emulated/0/termux_project && exe
 ### 思路:  
 > 通过使用[airscript](http://ascript.cn/)及其函数方法创建阴阳师脚本，通过无障碍服务模拟点击，这种方法使用第三方库需要自己重新编译  
 ### 配置  
-> 1.参考[官方文档](http://ascript.cn/docs/android/guide/first)打开编辑器并创建项目
+> 1.[下载](http://ascript.cn/docs/android/download)并安装AScript
 > 
-> 2.复制粘贴主分支下的ascript文件夹下的py文件内容并保存  
+> 2.下载主分支ascript目录下的onmyoji压缩包(目前只有Liaotu脚本,常用方法已写成类方法在module.py里，可自行编写其他python脚本)
+>
+> 3.将omyoji压缩包压缩至<./airscript/model/>路径
 ### 使用  
-> 1.打开应用按照提示打开无障碍服务并共享屏幕
+> 1.打开应用按照提示打开无障碍服务并共享屏幕(共享单个应用可能导致图色权限不足)
 > 
 > 2.打开游戏后，点开右侧悬浮窗
 > 
-> 3.点击放大镜按钮，选择脚本，此时脚本开始执行
+> 3.点击放大镜按钮选择脚本(只有一个项目时可以直接点击播放按钮)，此时脚本开始执行
+>
+### 预览  
+> ![Screenshot_2025-04-19-17-43-44-394_com aojoy airs](https://github.com/user-attachments/assets/4c1fecec-b2d6-4752-8bef-e59801738336)
+
 
