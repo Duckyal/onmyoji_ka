@@ -83,6 +83,7 @@ proot-distro login debian -- sh -c "cd /storage/emulated/0/termux_project && exe
 > 3.点击放大镜按钮选择脚本(只有一个项目时可以直接点击播放按钮)，此时脚本开始执行
 >
 ### 预览  
-> ![Screenshot_2025-04-19-17-43-44-394_com aojoy airs](https://github.com/user-attachments/assets/4c1fecec-b2d6-4752-8bef-e59801738336)
+> ![Screenshot_2025-04-19-18-02-26-051_com aojoy airs](https://github.com/user-attachments/assets/a4d74fec-bbc9-4bb9-b4ec-2ca33f3b1769)
+
 
 
